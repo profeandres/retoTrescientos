@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import Inicio from './components/Inicio';
 import Preguntas from './components/Preguntas';
 import NotFound from './components/NotFound';
-import Reto300 from './components/reto300';
+import Reto from './components/Reto';
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Inicio/>}/>
         <Route path='/preguntas' element={<Preguntas/>}/>
-        <Route path='/reto300*' element={<Reto300/>}/>
         <Route path='*' element={<NotFound/>}/>
+        <Route path='/reto' element={<Reto/>}/>
       </Routes>
       <Footer></Footer>
     </div>

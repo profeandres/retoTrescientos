@@ -3,17 +3,41 @@
 .inicio{
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://www.elestudiante.com.co/wp-content/uploads/2019/07/resultados-icfes-pruebas-saber.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
 }
 
 .saludo__div-h1-1{
-    display: inline;
-    font-size: 40px;   
+    padding: 5px;
+    display: block;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+
 }
 
 .saludo__div-h1-2{
-    display: inline;
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+
+.saludo__div-p{
+    color: white;
+    padding:0px 60px; 
+    width: 100%;
     font-size: 40px;
-    font-family: 'Bebas Neue', cursive;  
+    text-align: justify;
+    font-weight: bold;
 }
 
 .saludo__contenedor{

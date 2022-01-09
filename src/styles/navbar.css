@@ -11,7 +11,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .navbar__logo{
@@ -21,11 +20,45 @@
 
 .navbar__logo-h1{
     color: #112D4E;
-    font-family: 'Bebas Neue', cursive;;
+    font-family: 'Bebas Neue', cursive;
 }
 
-.navbar__redes{
+.navbar__redes a{
     margin: 0px 10px;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+    background:white;
+}
+
+.navbar__redes-tube{
+color: #b2071d;
+transition: all ease 1s
+}
+
+.navbar__redes-tube:hover{
+    color: white;
+    background: #b2071d;
+}
+
+.navbar__redes-face{
+    color: #3b5998;
+}
+
+.navbar__redes-face:hover{
+    color: white;
+    background: #3b5998;
+    font-size: 25px;
+}
+
+.navbar__redes-twit{
+    color: #00acee
+}
+
+.navbar__redes-insta{
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
 }
 
 
@@ -51,4 +84,8 @@
     color: #F9F7F7;
     background: #3F72AF;
     cursor: pointer;
+}
+
+.downerNavbar__ul-li a{
+    color: black;
 }

@@ -15,18 +15,18 @@ const Navbar = () => {
                 </div>
 
                 <div className='navbar__redes'>
-                    <a href={'https://youtube.com'}><i class="fab fa-youtube"></i></a>
-                    <a href={'https://facebook.com'}><i class="fab fa-facebook-f"></i></a>
-                    <a href={'https://instagram.com'}><i class="fab fa-instagram"></i></a>
-                    <a href={'https://twitter.com'}><i class="fab fa-twitter"></i></a>
+                    <a className='navbar__redes-tube' href={'https://youtube.com'}><i class="fab fa-youtube"></i></a>
+                    <a className='navbar__redes-face' href={'https://facebook.com'}><i class="fab fa-facebook-f"></i></a>
+                    <a className='navbar__redes-insta' href={'https://instagram.com'}><i class="fab fa-instagram"></i></a>
+                    <a className='navbar__redes-twit' href={'https://twitter.com'}><i class="fab fa-twitter"></i></a>
                 </div>
 
             </div>
 
             <div className='downerNavbar'>
                 <ul className='downerNavbar__ul'>
-                    <li className='downerNavbar__ul-li'>Inicio</li>
-                    <li className='downerNavbar__ul-li'>Preguntas</li>
+                    <li className='downerNavbar__ul-li'><a href="/">Inicio</a></li>
+                    <li className='downerNavbar__ul-li'><a href='/pregApi'>Preguntas</a> </li>
                     <li className='downerNavbar__ul-li'>About</li>
                 </ul>
             </div>

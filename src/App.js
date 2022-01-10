@@ -8,6 +8,8 @@ import Inicio from './components/Inicio';
 import Preguntas from './components/Preguntas';
 import NotFound from './components/NotFound';
 import Reto from './components/Reto';
+import Reto300 from './components/Reto300';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Route path='/preguntas' element={<Preguntas/>}/>
         <Route path='*' element={<NotFound/>}/>
         <Route path='/reto' element={<Reto/>}/>
+        <Route path='/reto300' element={<Reto300/>}/>
       </Routes>
       <Footer></Footer>
     </div>

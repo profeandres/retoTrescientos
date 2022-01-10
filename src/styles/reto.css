@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.reto{
+    background:#fa6400
+}
 
 .reto__saludo{
     display: block;
@@ -10,10 +13,13 @@
 
 .reto__p{
     display: block;
-    text-align: center;
+    text-align: justify;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     color: black;
+    margin: 0 auto;
+    width: 80%
+    
 }
 
 .reto__form{
@@ -26,8 +32,8 @@
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    width: 50%;
-    height: 600px;
+    width: 700px;
+    height: fit-content;
     background: #112D4E;
     font-size: 4vh;
     border-radius: 10px;
@@ -36,17 +42,18 @@
 
 .reto__form-form p{
     border: 0;
+    margin: 10px 0px;
 }
 
 #input__nombre{
     display: flex;
-    align-items:baseline;
+    flex-wrap: wrap;
     margin: 20px 10px;
 }
 
 #input__apellido{
     display: flex;
-    align-items:baseline;
+    flex-wrap: wrap;
     margin: 20px 10px;
 }
 
@@ -80,7 +87,7 @@
     border: 2px solid  
 }
 
-#matematica, #geometria, #estadistica{
+#matemática, #geometría, #estadística{
     visibility: hidden;
 }
 
@@ -91,7 +98,7 @@
     width: 100%;
     height: 35px;
     outline: 0;
-    margin: 0 10px;
+    margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 }
@@ -102,7 +109,7 @@
     height: 35px;
     width: 100%;
     outline: 0;
-    margin: 0 10px;
+    margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 }
@@ -115,14 +122,164 @@
 #dificultad{
     display: block;
     text-align: center;
-    margin: 10px 10px;
-    width: calc(100% - 50px);
+    margin: 0 auto;
     background:white;
     color: #112D4E;
     font-size:30px;
     font-family:  'Montserrat', sans-serif;
 }
 
-#form-submit{
-
+.form__submit{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.form__submit button{
+    outline: none;
+    font-size: 20px;
+}
+
+.label__apellido{
+    margin-left: 4px;
+}
+
+@media screen and (max-width: 760px){
+    .reto__saludo{
+        font-size: 80px;
+    }
+
+    .reto__p{
+        font-size: 20px;
+    }
+
+    .materia-activa{
+        margin: 0;
+    }
+
+    .materia-activa:hover{
+        margin: 0;
+
+    }
+
+    .materia-{
+        margin: 0;
+
+    }
+
+    .materia-:hover{
+        margin: 0;
+        font-size: 20px;
+    }
+    
+    .reto__form-form{
+        padding: 10px;
+        width:80%;
+        margin: 2px 2px;
+    }
+
+    #input__nombre{
+        font-size: 25px;
+    }
+
+    #input__apellido{
+        font-size: 25px;
+    }
+
+    .reto__form-form p{
+        font-size: 25px
+    }
+    
+}
+
+.button-5 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .button-5:hover,
+  .button-5:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .button-5:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-5:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
+
+  
+  .button-5-dis {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #973e02;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .button-5-dis:hover,
+  .button-5-dis:focus {
+    background-color: #773103;
+    box-shadow: rgba(32, 19, 1, 0.993) 0 4px 12px;
+  }
+  
+  .button-5-dis:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-5-dis:active {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }

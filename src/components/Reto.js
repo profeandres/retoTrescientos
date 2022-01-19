@@ -101,9 +101,9 @@ const Reto = () => {
 
                     <select name="dificultad" id="dificultad" onChange={handleChange}>
                         <option value="">---</option>
-                        <option value="fácil"> Fácil </option>
-                        <option value="moderado"> Moderado </option>
-                        <option value="difícil">Dificil</option>
+                        <option value={1}> Fácil </option>
+                        <option value={2}> Moderado </option>
+                        <option value={3}>Dificil</option>
                     </select>
 
                     <div className='form__submit'>

@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className='downerNavbar'>
                 <ul className='downerNavbar__ul'>
                     <li className='downerNavbar__ul-li'><a href="/">Inicio</a></li>
-                    <li className='downerNavbar__ul-li'><a href='/pregApi'>Preguntas</a> </li>
+                    <li className='downerNavbar__ul-li'><a href='/preg'>Preguntas</a> </li>
                     <li className='downerNavbar__ul-li'><a href='/about'>About</a></li>
                 </ul>
             </div>

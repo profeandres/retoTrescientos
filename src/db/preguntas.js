@@ -17,50 +17,50 @@ const preguntas = [
         'id':1010003,
         'materia':'matemática',
         'dificultad':'1',
-        'pregunta':'¿cuánto es 2 por 2?',
-        'respuesta':4
+        'pregunta':'¿cuánto es 4 mas 4?',
+        'respuesta':8
     },
     {
         'id':1020001,
         'materia':'matemática',
         'dificultad':'2',
-        'pregunta':'¿cuánto es 2 mas 2?',
-        'respuesta':4
+        'pregunta':'¿cuánto es 5 menos 2?',
+        'respuesta':3
     },
     {
         'id':1020002,
         'materia':'matemática',
         'dificultad':'2',
-        'pregunta':'¿cuánto es 3 mas 3?',
-        'respuesta':6
+        'pregunta':'¿cuánto es 8 menos 10?',
+        'respuesta':-2
     },
     {
         'id':1020003,
         'materia':'matemática',
         'dificultad':'2',
-        'pregunta':'¿cuánto es 2 por 2?',
-        'respuesta':4
+        'pregunta':'¿cuánto es 10 por 2?',
+        'respuesta':20
     },
     {
         'id':1030001,
         'materia':'matemática',
         'dificultad':'3',
-        'pregunta':'¿cuánto es 2 mas 2?',
-        'respuesta':4
+        'pregunta':'¿cuánto es 148 mas 521?',
+        'respuesta':669
     },
     {
         'id':1030002,
         'materia':'matemática',
         'dificultad':'3',
-        'pregunta':'¿cuánto es 3 mas 3?',
-        'respuesta':6
+        'pregunta':'¿cuánto es 253 mas 300?',
+        'respuesta':553
     },
     {
         'id':1030003,
         'materia':'matemática',
         'dificultad':'3',
-        'pregunta':'¿cuánto es 2 por 2?',
-        'respuesta':4
+        'pregunta':'¿cuánto es 216 por 5?',
+        'respuesta':1080
     },
     {
         'id':2010001,

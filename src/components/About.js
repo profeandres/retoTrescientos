@@ -2,8 +2,13 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div>
-           This is the about component 
+        <div className='about'>
+            <div className='about__picture'>
+                <img src="" alt="" />
+            </div>
+            <div>
+
+            </div>
         </div>
     )
 }
